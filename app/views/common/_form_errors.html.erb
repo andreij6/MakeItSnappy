@@ -1,0 +1,6 @@
+<% if object.errors.any? %>
+	<ul id="form-erros">
+		<% object.errors.full_messages.each do |message|%>
+			<li><%= message %></li>
+		<% end %>
+<% end %>
