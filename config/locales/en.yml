@@ -3,3 +3,7 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    attributes:
+      user:
+        password_digest: 'Password'  #changes the error message so that it says password cant be blank instead of password digest cant be blank
